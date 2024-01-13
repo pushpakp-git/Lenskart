@@ -18,7 +18,7 @@ pipeline {
 		}
 		stage('Deploy') {
 			steps {
-				sh "echo "War file deployed""
+				echo "War file deployed"
 			}
 		}
 	}
